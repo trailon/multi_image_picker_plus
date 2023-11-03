@@ -562,10 +562,10 @@ enum PHAssetCollectionSubtype {
   smartAlbumAnimated(214),
   smartAlbumLongExposures(215),
   smartAlbumUnableToUpload(216),
-  smartAlbumRAW(217),
+  smartAlbumRAW(217);
 
   /// Used for fetching, if you don't care about the exact subtype
-  any(9223372036854775807);
+  //any(9223372036854775807);
 
   const PHAssetCollectionSubtype(this.code);
 
