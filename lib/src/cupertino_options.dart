@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' show Color, Rect;
 
 class CupertinoOptions {
@@ -562,10 +563,10 @@ enum PHAssetCollectionSubtype {
   smartAlbumAnimated(214),
   smartAlbumLongExposures(215),
   smartAlbumUnableToUpload(216),
-  smartAlbumRAW(217);
+  smartAlbumRAW(217),
 
   /// Used for fetching, if you don't care about the exact subtype
-  //any(9223372036854775807);
+  any(kIsWeb ? 0 : 9223372036854775807);
 
   const PHAssetCollectionSubtype(this.code);
 
