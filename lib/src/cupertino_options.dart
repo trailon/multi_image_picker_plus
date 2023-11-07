@@ -566,7 +566,7 @@ enum PHAssetCollectionSubtype {
   smartAlbumRAW(217),
 
   /// Used for fetching, if you don't care about the exact subtype
-  any(kIsWeb ? 0 : 9223372036854775807);
+  any(kIsWeb ? 0 : 315513);
 
   const PHAssetCollectionSubtype(this.code);
 
